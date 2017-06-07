@@ -1,0 +1,325 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StartOverIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "AnswerIntent",
+      "samples": [
+        "Is it {Answer} ",
+        "I think its {Answer} ",
+        "the answer is {Answer} ",
+        "maybe {Answer} "
+      ],
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "LIST_OF_ANSWERS",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "AnswerOnlyIntent",
+      "samples": [
+        "{Answer} "
+      ],
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "LIST_OF_ANSWERS",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "DontKnowIntent",
+      "samples": [
+        "I don't know",
+        "No clue",
+        "Dunno",
+        "Who knows",
+        "Don't know",
+        "Skip",
+        "I don't know the answer",
+        "That's too hard"
+      ],
+      "slots": []
+    },
+    {
+      "name": "StartTrivia",
+      "samples": [
+        "Ask me a question",
+        "Ask me a trivia question",
+        "Give me a question",
+        "Give me a trivia question"
+      ],
+      "slots": []
+    }
+  ],
+  "types": [
+    {
+      "name": "LIST_OF_ANSWERS",
+      "values": [
+        {
+          "name": {
+            "value": "Joseph Smith"
+          }
+        },
+        {
+          "name": {
+            "value": "Brigham Young"
+          }
+        },
+        {
+          "name": {
+            "value": "John Taylor"
+          }
+        },
+        {
+          "name": {
+            "value": "Wilford Woodruff"
+          }
+        },
+        {
+          "name": {
+            "value": "Lorenzo Snow"
+          }
+        },
+        {
+          "name": {
+            "value": "Joseph F Smith"
+          }
+        },
+        {
+          "name": {
+            "value": "Heber J Grant"
+          }
+        },
+        {
+          "name": {
+            "value": "George Albert Smith"
+          }
+        },
+        {
+          "name": {
+            "value": "David O McKay"
+          }
+        },
+        {
+          "name": {
+            "value": "Ezra Taft Benson"
+          }
+        },
+        {
+          "name": {
+            "value": "Howard W Hunter"
+          }
+        },
+        {
+          "name": {
+            "value": "Gordon B Hinckley"
+          }
+        },
+        {
+          "name": {
+            "value": "Thomas S Monson"
+          }
+        },
+        {
+          "name": {
+            "value": "1805"
+          }
+        },
+        {
+          "name": {
+            "value": "1801"
+          }
+        },
+        {
+          "name": {
+            "value": "1808"
+          }
+        },
+        {
+          "name": {
+            "value": "1807"
+          }
+        },
+        {
+          "name": {
+            "value": "1814"
+          }
+        },
+        {
+          "name": {
+            "value": "1838"
+          }
+        },
+        {
+          "name": {
+            "value": "1856"
+          }
+        },
+        {
+          "name": {
+            "value": "1870"
+          }
+        },
+        {
+          "name": {
+            "value": "1873"
+          }
+        },
+        {
+          "name": {
+            "value": "1876"
+          }
+        },
+        {
+          "name": {
+            "value": "1899"
+          }
+        },
+        {
+          "name": {
+            "value": "1895"
+          }
+        },
+        {
+          "name": {
+            "value": "1907"
+          }
+        },
+        {
+          "name": {
+            "value": "1910"
+          }
+        },
+        {
+          "name": {
+            "value": "1927"
+          }
+        },
+        {
+          "name": {
+            "value": "1893"
+          }
+        },
+        {
+          "name": {
+            "value": "1847"
+          }
+        },
+        {
+          "name": {
+            "value": "Harold B Lee"
+          }
+        },
+        {
+          "name": {
+            "value": "Harold Lee"
+          }
+        },
+        {
+          "name": {
+            "value": "President Harold B Lee"
+          }
+        },
+        {
+          "name": {
+            "value": "President Lee"
+          }
+        },
+        {
+          "name": {
+            "value": "Thomas Monson"
+          }
+        },
+        {
+          "name": {
+            "value": "Gordon Hinckley"
+          }
+        },
+        {
+          "name": {
+            "value": "Howard Hunter"
+          }
+        },
+        {
+          "name": {
+            "value": "Ezra Benson"
+          }
+        },
+        {
+          "name": {
+            "value": "Spencer Kimball"
+          }
+        },
+        {
+          "name": {
+            "value": "George Smith"
+          }
+        },
+        {
+          "name": {
+            "value": "David McKay"
+          }
+        },
+        {
+          "name": {
+            "value": "M Joseph Brough"
+          }
+        },
+        {
+          "name": {
+            "value": "Cristina B Franco"
+          }
+        },
+        {
+          "name": {
+            "value": "Cristina Franco"
+          }
+        },
+        {
+          "name": {
+            "value": "Neill F Marriott"
+          }
+        },
+        {
+          "name": {
+            "value": "Neill Marriott"
+          }
+        },
+        {
+          "name": {
+            "value": "Reyna I Aburto"
+          }
+        },
+        {
+          "name": {
+            "value": "Reyna Aburto"
+          }
+        },
+        {
+          "name": {
+            "value": "Gerald Causse"
+          }
+        }
+      ]
+    }
+  ]
+}
