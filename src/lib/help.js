@@ -7,7 +7,7 @@ module.exports = Alexa.CreateStateHandler(constants.GAME_STATES.HELP, {
 		var askMessage = newGame
 			? this.t('ASK_MESSAGE_START')
 			: this.t('REPEAT_QUESTION_MESSAGE') + this.t('STOP_MESSAGE');
-		var speechOutput = this.t('HELP_MESSAGE', GAME_LENGTH) + askMessage;
+		var speechOutput = this.t('HELP_MESSAGE', constants.GAME_LENGTH) + askMessage;
 		var repromptText = this.t('HELP_REPROMPT') + askMessage;
 		this.emit(':ask', speechOutput, repromptText);
 	},

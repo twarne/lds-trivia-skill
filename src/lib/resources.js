@@ -7,9 +7,9 @@ module.exports = {
 	en: {
 		translation: {
 			QUESTIONS: questions['questions'],
-			GAME_NAME: 'LDS Trivia', // Be sure to change this for your skill.
+			GAME_NAME: 'Latter-day Trivia', // Be sure to change this for your skill.
 			HELP_MESSAGE:
-				'I will ask you %s questions. Respond with the number of the answer. ' +
+				'I will ask you %s questions. Respond with a phrase like, ' +
 					'For example, say, is it Gordon B Hinckley? Or, the answer is 1985. ' +
 					'To start a new game at any time, say, start game. ',
 			REPEAT_QUESTION_MESSAGE: 'To repeat the last question, say, repeat. ',
@@ -36,7 +36,7 @@ module.exports = {
 		translation: {
 			QUESTIONS: questions['questions'],
 			SOURCES: questions['sources'],
-			GAME_NAME: 'LDS Trivia' // Be sure to change this for your skill.
+			GAME_NAME: 'Latter-day Trivia' // Be sure to change this for your skill.
 		}
 	}
 };

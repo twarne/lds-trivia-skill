@@ -102,7 +102,7 @@ module.exports = Alexa.CreateStateHandler(constants.GAME_STATES.TRIVIA, {
 		this.emitWithState('helpTheUser', false);
 	},
 	'AMAZON.StopIntent': function() {
-		this.handler.state = constants.constants.GAME_STATES.HELP;
+		this.handler.state = constants.GAME_STATES.HELP;
 		var speechOutput = this.t('STOP_MESSAGE');
 		this.emit(':ask', speechOutput, speechOutput);
 	},
